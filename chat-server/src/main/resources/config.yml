@@ -1,4 +1,6 @@
 server:
+  type: default
+  rootPath: /api/*
   applicationConnectors:
     - type: http
       port: 8080
@@ -10,5 +12,5 @@ logging:
   level: INFO
   loggers:
     com.example: DEBUG
-
-allowedOrigins: "http://localhost:3002"
+    org.eclipse.jetty: DEBUG
+    org.eclipse.jetty.websocket: DEBUG

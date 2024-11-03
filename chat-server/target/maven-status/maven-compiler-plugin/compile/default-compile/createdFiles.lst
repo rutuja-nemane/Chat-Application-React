@@ -1,4 +1,4 @@
-com\example\chatserver\ChatServerConfiguration.class
-com\example\chatserver\ChatServerApplication.class
-com\example\chatserver\ChatWebSocketServlet.class
-com\example\chatserver\ChatWebSocket.class
+com/example/ChatConfiguration.class
+com/example/ChatApplication.class
+com/example/ChatWebSocket.class
+com/example/ChatWebSocketServlet.class
